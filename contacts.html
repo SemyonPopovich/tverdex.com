@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Контакты — TverDEX</title>
+<meta name="description" content="Свяжитесь с TverDEX по вопросам поставки запчастей для дробильного оборудования в Россию.">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/i18n.css">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/img/logo-mark-white.webp" alt="TverDEX" class="logo-mark">
+      <div><div class="logo-text">TverDEX</div><div class="logo-sub">ЗАПЧАСТИ ДЛЯ ДРОБИЛЬНОГО ОБОРУДОВАНИЯ</div></div>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="advantages.html">Наши преимущества</a></li>
+        <li><a href="parts/index.html">Продукция</a></li>
+        <li><a href="technology.html">Ключевые технологии</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li class="active"><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="contacts.html" class="header-cta">Связаться с нами</a>
+      
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" data-lang="ru" class="active" aria-pressed="true">RU</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+      </div>
+    </div>
+    <button class="nav-toggle" aria-label="Меню">☰</button>
+  </div>
+</header>
+
+
+<section class="page-hero cat-hero">
+  <!-- ФОТО ШАПКИ: assets/img/parts/ball-mill/hero.webp — без затемнения, высота задаётся  (.cat-hero, min-height) -->
+   <img class="cat-hero-img" src="assets/img/mainpg-hero/contacts.webp" alt="шапка" onerror="this.remove()">
+   <div class="wrap">
+    <span class="section-tag"></span>
+    <h1>Свяжитесь с нами</h1>
+    <p></p>
+  </div>
+</section>
+
+<section style="padding-bottom:0;">
+  <div class="wrap">
+    <h2 style="font-size:20px;margin-bottom:20px;">Написать нам в мессенджер</h2>
+    <!-- ССЫЛКИ МЕССЕНДЖЕРОВ: замените href на реальные номер/юзернейм в каждой карточке ниже -->
+    <div class="msg-cards">
+      <a class="msg-card" href="https://t.me/+8618930662616" target="_blank" rel="noopener"><span class="msg-card-icon"><img src="assets/img/messengers/telegram.webp" alt="Telegram"></span><span class="msg-card-label">Telegram</span><span class="msg-card-sub">@tverdex</span></a>
+      <a class="msg-card" href="https://wa.me/8618930662616" target="_blank" rel="noopener"><span class="msg-card-icon"><img src="assets/img/messengers/whatsapp.webp" alt="WhatsApp"></span><span class="msg-card-label">WhatsApp</span><span class="msg-card-sub">TverDEX</span></a>
+      <a class="msg-card" href="#" data-wechat="+86 189 3066 2616"><span class="msg-card-icon"><img src="assets/img/messengers/wechat.webp" alt="WeChat"></span><span class="msg-card-label">WeChat</span><span class="msg-card-sub">Найти по номеру</span></a>
+      <!-- <a class="msg-card" href="#" target="_blank" rel="noopener"><span class="msg-card-icon"><img src="assets/img/messengers/max.webp" alt="MAX"></span><span class="msg-card-label">MAX</span><span class="msg-card-sub">уточняется</span></a> -->
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap" style="display:grid;grid-template-columns:1fr 1fr;gap:56px;">
+    <div>
+      <h2 style="font-size:22px;margin-bottom:24px;">Контактные данные</h2>
+      <div style="display:flex;flex-direction:column;gap:18px;font-size:15px;margin-bottom:36px;">
+        <div><b>Телефон :</b><br>+86 189 3066 2616<span style="color:var(--steel-600);font-size:13px;"></span></div>
+        <div><b>E-mail:</b><br>yulia@tverdex.com</div>
+        <div><b>Рабочий адрес:</b><br>Корпус C3, №1288, ул. Цзиньган, район Пудун Новый, г. Шанхай, Китай</div>
+      </div>
+      <div class="card-grid-2" style="border:none;background:transparent;gap:16px;">
+        <a href="parts/index.html" class="btn-outline-dark" style="text-align:center;">Каталог запчастей</a>
+        <a href="advantages.html" class="btn-outline-dark" style="text-align:center;">Наши преимущества</a>
+      </div>
+    </div>
+
+      <div>
+      <h2 style="font-size:22px;margin-bottom:24px;">Форма заявки</h2>
+      <form class="lead-form" style="display:flex;flex-direction:column;gap:14px;">
+        <input type="hidden" name="access_key" value="e8698421-8f0f-4dab-8498-5a63d5d23cb2">
+        <input type="hidden" name="subject" value="Новая заявка с сайта TverDEX">
+        <input class="form-field" name="name" placeholder="Ваше имя" required>
+        <input class="form-field" name="contact" placeholder="Телефон или e-mail" required>
+        <input class="form-field" name="company" placeholder="Компания / карьер">
+        <select class="form-field" name="topic">
+          <option value="">Что вас интересует?</option>
+          <option>Подбор запчастей</option>
+          <option>Дилерство / сотрудничество</option>
+          <option>Другое</option>
+        </select>
+        <textarea class="form-field" name="message" placeholder="Марка техники или суть запроса" rows="4"></textarea>
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+        <button class="btn-primary" style="align-self:flex-start;" type="submit">Отправить заявку</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <div><h2>Нужна запчасть для дробилки?</h2><p>Оставьте заявку — ответим в течение рабочего дня и подскажем сроки поставки.</p></div>
+    <div class="cta-actions">
+      <a href="contacts.html" class="btn-white">Связаться с нами</a>
+      <div class="msg-icons on-color">
+        <a class="msg-icon" href="https://t.me/+8618930662616" target="_blank" rel="noopener" aria-label="Telegram"><img src="assets/img/messengers/telegram.webp" alt="Telegram"></a>
+        <a class="msg-icon" href="https://wa.me/8618930662616" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="assets/img/messengers/whatsapp.webp" alt="WhatsApp"></a>
+        <a class="msg-icon" href="#" data-wechat="+86 189 3066 2616"><img src="assets/img/messengers/wechat.webp" alt="WeChat"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wc-modal" role="dialog" aria-modal="true">
+  <div class="wc-box">
+    <button class="wc-close" type="button" aria-label="Закрыть">✕</button>
+    <img src="assets/img/messengers/wechat.webp" alt="WeChat" class="wc-logo">
+    <p class="wc-text">Найдите нас в WeChat по этому номеру:</p>
+    <div class="wc-num"></div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div style="text-align:center;">
+        <img src="assets/img/logo-full-white.webp"alt="TverDEX"style="height:56px;display:block;margin:0 auto 12px;">
+         <p style="max-width:280px;margin:0 auto;color:var(--steel-600);">Собственное производство запчастей для дробильного оборудования.</p>   
+      </div>
+      <div><h5>Компания</h5><ul>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="advantages.html">Наши преимущества</a></li>
+        <li><a href="news.html">Новости</a></li>
+      </ul></div>
+      <div><h5>Запчасти</h5><ul>
+        <li><a href="parts/index.html">Каталог запчастей</a></li>
+        <li><a href="parts/index.html#top">Популярные категории</a></li>
+        <li><a href="contacts.html">Запросить подбор</a></li>
+      </ul></div>
+<div><h5>Контакты</h5><ul><li><span>Почта:</span> yulia@tverdex.com</li><li><span>Телефон:</span> +86 189 3066 2616</li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 TverDEX. Все права защищены.</span></div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/i18n.js"></script>
+</body>
+</html>

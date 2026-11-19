@@ -1,0 +1,11 @@
+/* TverDEX — переключатель языка (RU / EN / 中文) */
+.lang-switch{display:flex;align-items:center;gap:2px;border:1px solid var(--steel-800);border-radius:var(--radius);padding:2px;flex:none;}
+.lang-switch button{background:transparent;border:none;color:var(--steel-300);font:600 12px/1 var(--font-body);padding:6px 8px;cursor:pointer;border-radius:2px;transition:color .15s ease, background .15s ease;}
+.lang-switch button:hover{color:#fff;}
+.lang-switch button.active{background:var(--iron-orange);color:#fff;}
+/* китайский: шрифты с иероглифами */
+html[lang="zh"] body,
+html[lang="zh"] h1,html[lang="zh"] h2,html[lang="zh"] h3,html[lang="zh"] h4,html[lang="zh"] h5,
+html[lang="zh"] .btn-primary,html[lang="zh"] .btn-white,html[lang="zh"] .btn-ghost,html[lang="zh"] .header-cta{
+  font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei","Hiragino Sans GB",Arial,sans-serif;
+}
