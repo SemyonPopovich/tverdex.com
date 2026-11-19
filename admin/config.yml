@@ -1,0 +1,41 @@
+backend:
+  name: github
+  repo: typicalraster/tverdex.com
+  branch: main
+  base_url: https://tverdex-cms-auth.ТВОЙ.workers.dev
+site_url: https://tverdex.com
+locale: ru
+media_folder: assets/img/uploads
+public_folder: /assets/img/uploads
+collections:
+  - name: site
+    label: Сайт
+    files:
+      - name: images
+        label: Картинки сайта
+        file: data/images.json
+        fields:
+          - { label: 'Шапка Главная, слайд 2', name: hero2, widget: image, required: false }
+          - { label: 'Шапка О компании', name: about_hero, widget: image, required: false }
+          - { label: 'Шапка Контакты', name: contacts_hero, widget: image, required: false }
+      - name: news
+        label: Новости
+        file: data/news.json
+        fields:
+          - label: Новости
+            name: items
+            widget: list
+            summary: '{{fields.title_ru}}'
+            fields:
+              - { label: 'Метка RU', name: tag_ru, widget: string, required: false }
+              - { label: 'Метка EN', name: tag_en, widget: string, required: false }
+              - { label: 'Метка ZH', name: tag_zh, widget: string, required: false }
+              - { label: 'Дата RU', name: date_ru, widget: string, required: false }
+              - { label: 'Дата EN', name: date_en, widget: string, required: false }
+              - { label: 'Дата ZH', name: date_zh, widget: string, required: false }
+              - { label: 'Заголовок RU', name: title_ru, widget: string }
+              - { label: 'Заголовок EN', name: title_en, widget: string, required: false }
+              - { label: 'Заголовок ZH', name: title_zh, widget: string, required: false }
+              - { label: 'Текст RU', name: text_ru, widget: text }
+              - { label: 'Текст EN', name: text_en, widget: text, required: false }
+              - { label: 'Текст ZH', name: text_zh, widget: text, required: false }
