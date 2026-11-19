@@ -2,7 +2,7 @@ backend:
   name: github
   repo: typicalraster/tverdex.com
   branch: main
-  base_url: https://tverdex-cms-auth.ТВОЙ.workers.dev
+  base_url: https://tverdex-cms-auth.typicalraster.workers.dev
 site_url: https://tverdex.com
 locale: ru
 media_folder: assets/img/uploads
