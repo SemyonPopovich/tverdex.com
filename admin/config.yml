@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: typicalraster/tverdex.com
+  repo: SemyonPopovich/tverdex.com
   branch: main
   base_url: https://tverdex-cms-auth.typicalraster.workers.dev
 site_url: https://tverdex.com
